@@ -6,6 +6,7 @@ import { useForm } from 'react-hook-form';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
+import { Separator } from '@/components/ui/separator';
 import Translator, { useTranslation } from 'components/i18n/Translator';
 
 import Alert from './Alert';
@@ -160,6 +161,14 @@ export function LoginForm({
 
             <Button type="submit" className="w-full" disabled={loading}>
               <Translator path="auth.login.form.actions.signin" />
+            </Button>
+
+            <Separator />
+
+            <Button type="submit" className="w-full" disabled={loading}>
+              <a href="https://google.com.br" target="_blank">
+                Criar uma conta
+              </a>
             </Button>
           </>
         )}
