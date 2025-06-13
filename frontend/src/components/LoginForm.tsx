@@ -103,6 +103,7 @@ export function LoginForm({
               </Label>
               <Input
                 id="email"
+                disabled={loading}
                 autoFocus
                 placeholder="me@example.com"
                 {...register('email', {
@@ -128,6 +129,7 @@ export function LoginForm({
               <div className="relative">
                 <Input
                   id="password"
+                  disabled={loading}
                   type={showPassword ? 'text' : 'password'}
                   {...register('password', {
                     required: t('auth.login.form.password.required')
