@@ -168,7 +168,10 @@ export function LoginForm({
             <Separator />
 
             <Button type="submit" className="w-full" disabled={loading}>
-              <a href="https://google.com.br" target="_blank">
+              <a
+                href="https://diariooficial.cepe.com.br/diariooficialweb/#/precadastro"
+                target="_blank"
+              >
                 Criar uma conta
               </a>
             </Button>
