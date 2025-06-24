@@ -169,7 +169,7 @@ export function LoginForm({
 
             <Button type="submit" className="w-full" disabled={loading}>
               <a
-                href="https://diariooficial.cepe.com.br/diariooficialweb/#/precadastro"
+                href="https://diariooficial.cepe.com.br/diariooficialweb/#/precadastro?diario=MQ%3D%3D"
                 target="_blank"
               >
                 Criar uma conta
