@@ -167,7 +167,7 @@ export function LoginForm({
 
             <Separator />
 
-            <Button type="submit" className="w-full" disabled={loading}>
+            <Button className="w-full">
               <a
                 href="https://diariooficial.cepe.com.br/diariooficialweb/#/precadastro?diario=MQ%3D%3D"
                 target="_blank"

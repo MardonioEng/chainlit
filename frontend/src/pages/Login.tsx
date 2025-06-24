@@ -102,6 +102,15 @@ export default function Login() {
             />
           </div>
         </div>
+        <div className="flex justify-center gap-2 md:justify-center">
+          <a
+            href="https://tropical-situation-78a.notion.site/TERMO-DE-USO-E-POL-TICA-DE-PRIVACIDADE-DO-CHAT-COM-INTELIG-NCIA-ARTIFICIAL-CEPE-1ece5acf89c7806fbba7c5bd57fce398"
+            target="_blank"
+            className="text-primary w-full inline-flex items-center justify-center"
+          >
+            Termos de uso
+          </a>
+        </div>
       </div>
       {!config?.headerAuth ? (
         <div className="relative hidden bg-muted lg:block overflow-hidden">
