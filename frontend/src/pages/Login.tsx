@@ -106,7 +106,7 @@ export default function Login() {
           <a
             href="https://tropical-situation-78a.notion.site/TERMO-DE-USO-E-POL-TICA-DE-PRIVACIDADE-DO-CHAT-COM-INTELIG-NCIA-ARTIFICIAL-CEPE-1ece5acf89c7806fbba7c5bd57fce398"
             target="_blank"
-            className="text-primary w-full inline-flex items-center justify-center"
+            className="text-sm w-full inline-flex items-center justify-center"
           >
             Termos de uso
           </a>
