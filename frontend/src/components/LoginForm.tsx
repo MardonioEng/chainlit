@@ -165,6 +165,14 @@ export function LoginForm({
               <Translator path="auth.login.form.actions.signin" />
             </Button>
 
+            <a
+                href="https://diariooficial.cepe.com.br/diariooficialweb/#/recuperarSenha"
+                target="_blank"
+                style={{ color: '#004D32', textAlign: 'center', textDecoration: 'underline', marginTop: '3em' }}
+              >
+                Esqueci minha senha
+              </a>
+
             <Separator />
 
             <Button type="submit" className="w-full">
