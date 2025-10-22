@@ -168,7 +168,7 @@ export function LoginForm({
             <a
                 href="https://diariooficial.cepe.com.br/diariooficialweb/#/recuperarSenha"
                 target="_blank"
-                style={{ color: '#004D32', textAlign: 'center', textDecoration: 'underline', marginTop: '3em' }}
+                style={{ color: '#004D32', textAlign: 'center', textDecoration: 'underline', fontWeight: 'bold' }}
               >
                 Esqueci minha senha
               </a>
